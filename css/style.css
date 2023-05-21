@@ -1,0 +1,262 @@
+/* fonts link start */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* fonts link end */
+/* comon css start */
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+.btn-c{
+    background-color: #21B573;
+    border-radius: 33px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    line-height: 19px;
+}
+.btn-c:hover{
+    background-color: #fd511a;
+    color: #fff;
+}
+.btn-c:active{
+    background-color: #fd511a !important;
+    color: #fff !important;
+}
+a{
+    text-decoration: none;
+}
+/* comon css end */
+/* header start */
+header{
+    background-color: #F0FFF0;
+    padding: 15px 0px;
+}
+.cnav{}
+.logo{}
+.manu{}
+.manu ul li a{
+    padding: 0 25px !important;
+    color: #000 !important;
+    line-height: 24px !important;
+    text-transform: capitalize;
+}
+.manu ul li a:hover{
+    color: #fd511a !important;
+}
+.btn-s{
+    width: 105px;
+    height: 45px;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+.net-togol:focus{
+    box-shadow: none;
+}
+/* header end */
+/* banner section code start  */
+.banner-section{
+    background-color: #F0FFF0;
+    padding-bottom: 60px;
+}
+.banner-tex{}
+.banner-p1{
+    color: #fd511a;
+    line-height: 24px;
+}
+.bnner-h1{
+    margin: 10px 0 20px;
+    padding-right: 60px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    
+}
+.bnner-h1 span{
+    color: #21B573;
+}
+.banner-p2{
+    line-height: 36px;
+}
+.get-start{
+    margin-top: 15px;
+    width: 155px;
+    height: 45px;
+    text-transform: capitalize;
+}
+
+.banner-img{}
+.banner-img img{}
+
+
+/* banner section code end  */
+/* future section code end */
+.future-section{
+    padding: 45px 0px 100px;
+}
+.future-box{
+    padding: 55px 0px 50px;
+    background-color: #F0FFF0;
+    border-radius: 10px;
+    text-align: center;
+    transition: 2s;
+}
+.future-box:hover{
+    background-color: #fff;
+    box-shadow: 0px 20px 40px #cff8cf;
+}
+.future-box .future-img{
+    margin: 0 auto 22px;
+    width: 65px;
+    height: 85px;
+}
+.future-box .future-img img{}
+.fu-h2{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.fu-p{
+    line-height: 24px;
+}
+
+/* future section code end */
+
+/* course section code start */
+.course-section{
+    padding-bottom: 100px;
+    
+}
+.course-title{
+    
+}
+.course-hiding{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+}
+.course-item{
+    margin-top: 60px;
+    padding: 25px 20px 30px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.685);
+    border-radius: 18px;
+}
+.course-img
+.course-img img{
+    width: 100%;
+}
+.c-h2{
+    margin: 20px 0px 5px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #413960;
+    line-height: 36px;
+    text-transform: capitalize;
+}
+.c-pa{
+    line-height: 24px;
+    text-transform: capitalize;
+}
+.btn-cb{
+    margin: 20px 0 35px;
+    width: 140px;
+    height: 35px;
+    text-transform: capitalize
+}
+
+.icon-item:not(:last-child) {
+    margin-right: 4px;
+}
+.c-t{
+    text-transform: capitalize;
+}
+
+/* course section code end */
+/* tastimonial section code start */
+.tastimonial{
+    padding: 0 0 100px;
+
+}
+.slide{
+    margin-top: 40px;
+}
+.carousel-indicators {
+    bottom: -50px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    background-color: #5b5280;
+    border-radius: 50%;
+}
+.slider-img{
+    
+}
+.slider-img img{
+    width: 100px;
+}
+.slider-text{
+   
+    
+    
+}
+.slider-text p{
+
+}
+/* tastimonial section code end */
+/* footer section course start */
+footer{
+    background-color: #282531;
+    padding: 55px 0 37px;
+}
+.foot-1{
+    
+}
+.foot-1 p{
+    font-size: 15px;
+    line-height: 30px;
+    color: #fff;
+
+}
+.footer-2{
+    
+}
+.footer-te{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+.footer-2 ul li a{ 
+    line-height: 30px;
+    color: #fff;
+}
+.copi{
+    margin-top: 20px;
+}
+.copi p{
+    color: #fff;
+}
+.copi p a{
+    color: #fff;
+}
+/* footer section course end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
